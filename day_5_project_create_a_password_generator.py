@@ -17,7 +17,7 @@ def password(passwordLen):
          one uppercase letter, one number, and one symbol.
 
     Raises:
-    ValueError: If passwordLen is less than 4.
+    ValueError: If passwordLen is less than 8.
 
     How it works:
     1-Get the total length of the password that the user wants.
@@ -33,7 +33,7 @@ def password(passwordLen):
     6-The remaining length is the number of symbols in the password
     
     """
-    if passwordLen < 4:
+    if passwordLen < 8:
         raise ValueError("Password length must be at least 4 to include all character types.")
 
     remainingLength = passwordLen
