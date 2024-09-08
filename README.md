@@ -2,7 +2,7 @@
 
 **Overview:**
 
-This is the day 5 project of the course 100 Days of Code: The Complete Python Pro Bootcamp.
+This is the Day 5 project from the 100 Days of Code: The Complete Python Pro Bootcamp. The Password Generator creates strong passwords by combining lowercase letters, uppercase letters, numbers, and symbols. By default, it generates an 8-character password, but users can specify a custom length of at least 8 characters.
 
 
 **How It Works**
