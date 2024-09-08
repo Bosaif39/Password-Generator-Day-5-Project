@@ -22,7 +22,7 @@ The password generator creates a password by combining lowercase letters, upperc
 
 **Example**
 
-![alt text]()
+![alt text](https://github.com/Bosaif39/example-pics/blob/main/D_5.png?raw=true)
 
 **Requirements:**
 
