@@ -48,10 +48,10 @@ def password(passwordLen):
     num = remainingLength
 
     #Generate random characters for each category
-    ranletterSmall = [random.choice(alphabetSmall) for _ in range(letterSmall)]
-    ranletterBig = [random.choice(alphabetBig) for _ in range(letterBig)]
-    rannum = [random.choice(numbers) for _ in range(num)]
-    ransym = [random.choice(symbols) for _ in range(sym)]
+    ranletterSmall = [random.choice(alphabetSmall) for i in range(letterSmall)]
+    ranletterBig = [random.choice(alphabetBig) for i in range(letterBig)]
+    rannum = [random.choice(numbers) for i in range(num)]
+    ransym = [random.choice(symbols) for i in range(sym)]
 
     #Combine and shuffle the characters to create the final password
     password_chars = ranletterSmall + ranletterBig + rannum + ransym
