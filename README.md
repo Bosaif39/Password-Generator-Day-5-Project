@@ -27,4 +27,4 @@ The password generator creates a password by combining lowercase letters, upperc
 ## **Requirements:**
 
 * Python 3.x
-* random
+* `random`
